@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', serif;
+}
+
+.nav {
+	margin: 0;
+	background-color: #191970;
+	color: #ffffff;
+	list-style: none;
+	text-align: center; 
+	padding: 20px 0 20px 0;
+}
+
+.nav > li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #FFD700
+}
+
+.nav > li > a:hover {
+	color: #c1c1c1;
+}
+
+.banner {
+ 	width: 100%;
+ 	display: block;
+}
+
+.banner > .banner-image {
+ 	width: 100%;
+ 	display: block;
+}
+
+h1 {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-size: 75px;
+	text-align: center;
+
+	letter-spacing: 4px;
+	word-spacing: -8px;
+	color: hsl(240, 64%, 27%);
+
+	text-shadow: 
+	-1px -1px 0 rgb(255, 215, 0),
+	-2px -2px 0 #FFD700,
+	-3px -3px 0 #FFD700,
+	-30px 20px 40px dimgrey;
+}
+
+i {
+	color: #FF0000;
+}
+
+input[type=text], input[type=password], select, textarea {
+	width: 600px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	width: 600px;
+	background-color: #00008B;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #191997;
+}
+
+.container {
+	margin: auto;
+	display: flex;
+	max-width: 600px;
+	justify-content: center;
+ 	align-items: center;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+.footer {
+	clear: both;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background: #191970;
+	color: #FFD700;
+	height: 60px;
+}
+
+.footer .footer-bottom {
+	font-size: 12.5px;
+	padding: 10px;
+}
+
+.seniorprojectlogo {
+	max-width: 2.5%;
+	max-height: 2.5%;
+	float: right;
+}

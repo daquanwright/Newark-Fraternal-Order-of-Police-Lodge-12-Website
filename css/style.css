@@ -1,0 +1,74 @@
+.title-alert{
+  background-color: #ef7d37;
+  color: #111;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.boxes-index{
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+/* donate page css */
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: #000 url("https://media.nj.com/njcom_photos/photo/2017/01/09/-6052bb33823b21c3.JPG") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.jumbotron h2 {
+  margin-top: 0;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.center_div {
+  margin: 0 auto;
+  width: 60%
+    /* value of your choice which suits your alignment */
+}
+
+/* Navbar Styling */
+
+.navbar-text-color{
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #fff !important;
+}
+
+.navbar-nav a:hover {
+color: grey !important;
+}
+
+.header-title-font{
+  font-family: 'Libre Baskerville', serif;
+}
