@@ -1,0 +1,109 @@
+body {
+  background: white;
+  margin:0px;
+  font-family: 'Oswald', Helvetica, sans-serif;
+	background-size: 100% 110%;
+}
+h1, h2, h3, h4, h5, h6, a {
+  margin:0; padding:0;
+}
+.login {
+  margin:0 auto;
+  max-width:500px;
+}
+.login-header {
+  text-align:center;
+  font-size: 75px;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  letter-spacing: 4px;
+  color: #191970;
+  text-shadow: 
+  -1px -1px 0 #191970,
+  -2px -2px 0 #FFD700,
+  -3px -3px 0 #FFD700,
+  -30px 20px 40px dimgrey;
+
+}
+ .login-header h1 {
+   text-shadow: 0px 5px 15px white; 
+}
+.login-form {
+  border:.5px solid rgb(#000000);
+  background: #191970;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000000;
+}
+.login-form h3 {
+  text-align:left;
+  margin-left:40px;
+  color:	#FFD700;
+}
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+	padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  max-width:400px;
+	width: 80%;
+  line-height:3em;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2; 
+  outline:none;
+  padding-left:10px;
+}
+.login-form input[type="submit"] {
+  height:30px;
+  width:100px;
+  background:	#FFD700;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: #03396d;
+  text-transform:uppercase;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  cursor:pointer;
+}
+i {
+  color: #FF0000;
+}
+.sign-up{
+  color: 	#FFD700;
+  margin-left:-72%;
+  cursor:pointer;
+  text-decoration:underline;
+}
+.no-access {
+  color:	#FFD700;
+  margin-left:-40%;
+  text-decoration:underline;
+  cursor:pointer;
+}
+ /*.try-again {
+  color:#f2f2f2;
+  text-decoration:underline;
+  cursor:pointer;
+} */
+
+img {
+    display: inline-block;
+  }
+
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h3 {
+    text-align:center;
+    margin:0;
+  }
+  .sign-up, .no-access {
+    margin:10px 0;
+  }
+  .login-button {
+    margin-bottom:10px;
+  }
+}
