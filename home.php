@@ -87,7 +87,7 @@ if (isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])) {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>fdgfdsgfdgbfdsgfdsgfdsgfdgfdg
 				<div class="carousel slide" id="carousel-814050">
 					<ol class="carousel-indicators">
 						<li data-slide-to="0" data-target="#carousel-814050" class="active">
